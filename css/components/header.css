@@ -1,0 +1,21 @@
+#header {
+  background-image: linear-gradient(100deg, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.4) 50%), url(../../images/banner.jpg);
+  padding: 100px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#header h2{
+ margin-bottom: 52px;
+}
+
+
+.container-header {
+  width: 800px;
+  margin-left: 60px;
+  height: 350px;
+  background-color: none;
+}
+/*couleur rouge pour vérif marges*/

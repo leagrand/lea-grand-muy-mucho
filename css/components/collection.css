@@ -1,0 +1,33 @@
+#collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  margin: 100px auto;
+  background-color: none;
+}
+
+.card {
+  align-items: left;
+  text-align: left;
+  background-color: none;
+}
+
+.card h4, p {
+  padding: 0px 0px 0px 4px;
+  margin: none;
+}
+
+
+
+
+
+/* réduire légèrement taille image et donc ajuster les marges
+réfléchir au texte sous les images : titre, sous titre, bouton
+ajuster les éléments sous les images
+
+catégorie nouveautés avec des produits
+
+newletter
+
+banner réseaux sociaux*/

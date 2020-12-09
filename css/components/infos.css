@@ -1,0 +1,45 @@
+#information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  margin: 80px auto;
+  background-color: none;
+
+}
+
+
+.info {
+  width: 300px;
+  padding: 0px 0px 0px 40px;
+  margin: 0px;
+  border-left: solid;
+  border-width: 2px;
+  border-color:#E3CBB5;
+  background-color: none;
+}
+
+
+.info-0 {
+  width: 280px;
+  padding: 0px 0px 0px 50px;
+  margin: 0px;
+  background-color: none;
+}
+
+.info h5 {
+  color: #3B2816;
+  font-weight: 100;
+  line-height: 0px;
+  margin-top: 16px;
+}
+
+.info-0 h5 {
+  color: #3B2816;
+  font-weight: 100;
+  line-height: 0px;
+  margin-top: 16px;
+}
+
+
+

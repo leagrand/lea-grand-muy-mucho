@@ -1,0 +1,37 @@
+#categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 200px 20px 200px;
+  background-color: none;
+}
+
+.cat {
+  text-align: center;
+  background-color: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.cat img {
+ -webkit-transition: .3s ease-in-out;
+  transition: .3 ease-in-out;
+}
+
+.cat img:hover {
+  opacity: 0.5;
+}
+
+.cat:hover h3 {
+ font-weight: 600;
+}
+
+
+
+
+
+

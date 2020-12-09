@@ -1,0 +1,153 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Zeyada&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/header.css");
+
+@import url("components/categories.css");
+
+@import url("components/collection.css");
+
+@import url("components/infos.css");
+
+@import url("components/banner-bottom.css");
+
+
+
+
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Zeyada', cursive;
+
+
+/*colors
+arrière-plan  #F7F4EF     Linen
+bannières     #E3CBB5     Desert sand
+form          #D5B291     Tan
+titres        #1E140B     Black chocolate
+Sous-titres   #3B2816     Brown
+texte         #1E140B     Black chocolate
+button        #DDA461     Earth yellow
+
+*/
+
+
+html, body, div {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  background-color: #F7F4EF;
+  color: #1E140B;
+  font-family: 'Nunito', sans-serif;
+  font-size : 14px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size : 52px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size : 30px;
+  color: #F7F4EF;
+  opacity: 0.8;
+}
+
+h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 6px 0px;
+}
+
+h4 {
+  font-size : 20px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+h5 {
+  font-size : 16px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+h6 {
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+p{
+  color: #3B2816;
+  line-height: 1.4;
+  font-size : 18px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.quote {
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 70px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(60px, auto);
+  margin: 30px 130px 30px 130px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  /* For a screen < 1000px, this CSS will be read */
+  .responsive {
+    width: 900px;
+  }
+
+
+@media (max-width: 800px) {
+  .responsive {
+    width: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .responsive {
+    width: 400px;
+  }
+}

@@ -1,0 +1,35 @@
+.btn {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #D5B291;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #F7F4EF;
+
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #D5B291;
+  border: solid;
+  border-color: #D5B291;
+}
+
+
+.btn-discover{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  color: #DDA461;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 4px;
+  margin: none;
+}
+
+.btn-discover:hover {
+  color: #E3CBB5;
+}
+
+

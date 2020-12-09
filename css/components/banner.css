@@ -1,0 +1,49 @@
+#banner {
+  background-color: #E3CBB5;
+  padding: 40px;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.container-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  background: none;
+
+}
+
+.container-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding-left: 250px;
+  background: none;
+}
+
+.container-items h3:hover {
+  font-weight: 700;
+}
+
+
+.container-icon img {
+ -webkit-transition: .3s ease-in-out;
+  transition: .3 ease-in-out;
+}
+
+.container-icon img:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+
